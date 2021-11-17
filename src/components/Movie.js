@@ -1,6 +1,7 @@
 import React from "react";
 
 import Poster from "./Poster";
+import "./Movie.css";
 
 const Movie = ({ movies }) => {
   const moviePoster = movies.map((movie) => {
@@ -13,7 +14,7 @@ const Movie = ({ movies }) => {
       />
     );
   });
-  return <div>{moviePoster}</div>;
+  return <div className="movies-container">{moviePoster}</div>;
 };
 
 export default Movie;
