@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import Movie from "./Movie";
+import Movie from "../Movie/Movie";
 
 import "./App.css";
-import movieData from "../movieData";
+import movieData from "../../movieData";
 
 console.log(movieData.movies);
 const moviesArr = movieData.movies;
